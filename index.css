@@ -2,7 +2,14 @@
 .stars {
     height: 100vh;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    background-size: cover;
     overflow: hidden;
+}
+
+@media (max-width: 480px) {
+    stars {
+        height: 170vh;
+    }
 }
 
 #stars {
@@ -127,4 +134,10 @@ li {
 .list-inline {
     margin-top: 25rem;
     margin-left: 35rem;
+}
+
+p {
+    font-size: 20px;
+    letter-spacing: normal;
+    margin-right: 15px;
 }
